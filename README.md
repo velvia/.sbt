@@ -3,7 +3,7 @@
 
 My SBT global settings.  Clone this directory into your home directory.  Also contains notes on setting up Scala dev environment.
 
-Sublime Text 2 Development
+Sublime Text 2 and SBT
 ==========================
 
 * ensime-sbt-plugin - Generates .ensime project files.  ENSIME gives you compiler error checking, autocomplete,
@@ -19,3 +19,10 @@ Sublime Text 2 Development
 
 Now you should have all the goodies: Ctrl-space autocomplete, error checking on save, Cmd-P go to source for
 third party dependencies.
+
+Useful Sublime Text 2 Plugins for Scala
+=======================================
+
+* ENSIME, of course
+* DocBlockr  - auto create ScalaDoc / JavaDoc style commenting blocks
+* SublimeREPL - gives you a Scala console, but I can't figure out how to get deps pulled in.
